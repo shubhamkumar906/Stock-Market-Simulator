@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Stock Market Simulator</title>
+    <link href="{{url_for('static', filename='style.css')}}" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js')}}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+         <a href="index.html"><img id="logo" src="https://cdn5.vectorstock.com/i/thumb-large/67/79/stair-stock-market-business-logo-icon-design-vector-22926779.jpg">
+    <div class="header">
+         <span class="name">StockMarketSimulation.in</span></a>
+      <div class="list">
+
+       <ul>
+      <li><a href="login.html">LOGIN</a></li>
+      <li><a href="signup.html">SIGN-UP</a></li>
+      </ul>
+      </div>
+
+
+
+    </div>
+
+
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+      </ul>
+      </nav>
+
+
+      <img id="login_background" src="https://wallpaperset.com/w/full/0/7/2/313022.jpg">
+
+
+      <div class="container1">
+        <h1 id="login_heading">LOGIN</h1>
+        <form class="login_form" onsubmit="return validatelogin()">
+          <div class="email" id="head1">E-mail:</div>
+          <input type="text" id="text1" placeholder="Enter E-mail address">
+          <div id="email_error">*Please Enter E-mail Address.</div>
+          <div class="password" id="head2" >Password:</div>
+          <input type="text" id="text2" placeholder="Enter password">
+          <div id="password_error">*Please Enter Password.</div>
+        <button id="submit">Login</button>
+        </form>
+
+      </div>
+
+
+<div class="footer_login">
+  <div id="f1">Designed By- Shubham Kumar</div>
+ <div id="f2"> Contact us:</div>
+  <a href="mailto:shubham.kumar18@vit.edu">shubham.kumar18@vit.edu</a>
+</div>
+
+  </body>
+</html>

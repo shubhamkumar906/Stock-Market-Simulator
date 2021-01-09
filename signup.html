@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Stock Market Simulator</title>
+      <link href="{{url_for('static', filename='style.css')}}" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js')}}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  <a href="index.html"><img id="logo" src="https://cdn5.vectorstock.com/i/thumb-large/67/79/stair-stock-market-business-logo-icon-design-vector-22926779.jpg">
+    <div class="header">
+         <span class="name">StockMarketSimulation.in</span></a>
+      <div class="list">
+
+       <ul>
+      <li><a href="login.html">LOGIN</a></li>
+      <li><a href="signup.html">SIGN-UP</a></li>
+      </ul>
+      </div>
+
+
+
+    </div>
+
+
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+      </ul>
+      </nav>
+<img id="signup_background" src="https://images.squarespace-cdn.com/content/v1/5650beb0e4b028016691ac42/1449079572032-RTU4Z4F2ASPXLOJRQUI2/ke17ZwdGBToddI8pDm48kKY-rZRM78CG4ALLKNDSZCJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQQ3bI57nfoPzARXLB8iEhIFxgUDuvCFGV7EkPrvrKNJZLBrKI734ybJZRxqSlln6w/Sign+Up+Background.jpg?format=2500w">
+      <div class="signup_container">
+        <h2 id="signup_heading">CREATE ACCOUNT</h2>
+        <form class="signup_form" onsubmit="return validatesignup()">
+
+          <div class="signup_username">Username:</div>
+          <input type="text" id="username" placeholder="Enter username">
+          <div id="username_error_signup">*Please enter username</div>
+
+
+          <div class="signup_password">Password:</div>
+          <input type="text" id="password" placeholder="Enter password">
+          <div id="password_error_signup">*Please enter password</div>
+
+           <div class="signup_email">E-mail:</div>
+          <input type="text" id="email" placeholder="Enter email-Id">
+          <div id="email_error_signup">*Please enter email</div>
+
+           <div class="phone_username">Contact Number:</div>
+          <input type="text" id="contact" placeholder="Enter contact number">
+          <div id="phone_error_signup">*Please enter contact number</div>
+          <button id="create_account">Create Account</button>
+        </form>
+      </div>
+
+
+
+    <div class="footer_login">
+  <div id="f1">Designed By- Shubham Kumar</div>
+ <div id="f2"> Contact us:</div>
+  <a href="mailto:shubham.kumar18@vit.edu">shubham.kumar18@vit.edu</a>
+</div>
+
+  </body>
+</html>
